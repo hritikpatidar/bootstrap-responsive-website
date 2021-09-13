@@ -43,8 +43,15 @@
             box-shadow: none;
         }
 
-        a.dark {
+        a.dark,
+        .dark1 {
             color: #43425D;
+            margin: 0px;
+        }
+
+        .dark1 {
+            font-size: 12px;
+            float: right;
         }
 
         a:hover {
@@ -77,8 +84,8 @@
 
 <body>
     <div class="container-fluid R_h R_tbdr">
-        <div class="row R_row h-100 ">
-            <div class="col-7  p-5">
+        <div class="row R_row  h-100 ">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6  p-5">
                 <a href="#">
                     <img src="img/1.png" alt="1">
                 </a>
@@ -103,19 +110,20 @@
                                     <label class="form-check-label" for="exampleCheck1">Remember me</label>
                                 </div>
                                 <div class="col">
-                                    <a href="#" class="dark offset-2">Forget Password?</a>
+                                    <a href="#" class="dark offset-1">Forget Password?</a>
                                 </div>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-warning w-100 rounded-3 ">LOGIN</button>
                         <div class="col">
-                            <a href="#" class="dark offset-2 offset-2 ">Facing problem with login contact Help desk </a>
+                            <a href="#" class="dark1 offset-1 ">Facing problem with login contact Help desk </a>
                         </div>
+                        
                     </form>
 
                 </div>
             </div>
-            <div class="col-5 p-5 R_col ">
+            <div class="col-12 p-5 R_col col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                 <div class="w-50 offset-3 h-100 text-center R_m1">
                     <h1 class=" fw-bold">Hello, Friend!</h1>
                     <p>Enter your details and <br>start journey with us</p>
